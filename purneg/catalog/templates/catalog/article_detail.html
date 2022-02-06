@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Название: {{ article.name }}</h1>
+
+  <p><strong>Номер:</strong> <a href="">{{ article.number }}</a></p> <!-- author detail link not yet defined -->
+  <p><strong>Дата:</strong> {{ article.date }}</p>
+  <p><strong>Ссылка:</strong> {{ article.url }}</p>
+
+  <div style="margin-left:20px;margin-top:20px">
+  </div>
+{% endblock %}

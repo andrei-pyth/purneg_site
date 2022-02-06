@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Чистый Бизнес</h1>
+  <p>Добро пожаловать на сайт нашей компании! <em>Создан pn_tech</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Articles:</strong> {{ num_articles }}</li>
+    <li><strong>Clients:</strong> {{ num_clients }}</li>
+    <li><strong>Contacts:</strong> {{ num_contacts }}</li>
+  </ul>
+{% endblock %}
